@@ -1,0 +1,28 @@
+#resume .container .section.skills .skills .skill {
+    background: #F4F4F4;
+    border-radius: 2px;
+    color: #222222;
+    margin: 0.3rem;
+    padding: 0.15rem 1.5rem;
+    user-select: none;
+}
+
+#resume .container .section.employment .job ul {
+    margin-bottom: 2rem;
+}
+
+#resume .container .section.employment .job:last-of-type ul {
+    margin-bottom: 0;
+}
+
+#resume .container .section.employment .job li {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 3rem;
+}
+
+@media(min-width: 767px){
+    #resume .container .section.skills .skills .skill:first-of-type {
+        margin-left: 0;
+    }
+}

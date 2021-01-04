@@ -1,0 +1,295 @@
+/**************************************************
+            BOF DISPLAY MODIFICATIONS
+**************************************************/
+.clear {
+    clear: both;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.desktop-only {
+    display: none;
+}
+@media(min-width: 1023px){
+    .desktop-only {
+        display: block;
+    }
+}
+
+.display-block {
+    display: block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-none {
+    display: none;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.mobile-only {
+    display: block;
+}
+@media(min-width: 1023px){
+    .mobile-only {
+        display: none;
+    }
+}
+
+.no-select {
+    user-select: none;
+}
+/**************** EOF DISPLAY MODS ****************/
+
+
+/**************************************************
+                BOF MARGINS PADDING
+**************************************************/
+.margin-1rem {
+    margin: 1rem;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.margin-bottom-halfrem {
+    margin-bottom: 0.5rem;
+}
+
+.margin-bottom-1rem {
+    margin-bottom: 1rem;
+}
+
+.margin-bottom-2rem {
+    margin-bottom: 2rem;
+}
+
+.margin-left-0 {
+    margin-left: 0;
+}
+
+.margin-left-halfrem {
+    margin-left: 0.5rem;
+}
+
+.margin-left-1rem {
+    margin-left: 1rem;
+}
+
+.margin-left-2rem {
+    margin-left: 2rem;
+}
+
+.margin-right-0 {
+    margin-right: 0;
+}
+
+.margin-right-halfrem {
+    margin-right: 0.5rem;
+}
+
+.margin-right-1rem {
+    margin-right: 1rem;
+}
+
+.margin-right-2rem {
+    margin-right: 2rem;
+}
+
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-top-halfrem {
+    margin-top: 0.5rem;
+}
+
+.margin-top-1rem {
+    margin-top: 1rem;
+}
+
+.margin-top-2rem {
+    margin-top: 2rem;
+}
+
+.padding-1rem {
+    padding: 1rem;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.padding-bottom-halfrem {
+    padding-bottom: 0.5rem;
+}
+
+.padding-bottom-1rem {
+    padding-bottom: 1rem;
+}
+
+.padding-bottom-2rem {
+    padding-bottom: 2rem;
+}
+
+.padding-left-0 {
+    padding-left: 0;
+}
+
+.padding-left-halfrem {
+    padding-left: 0.5rem;
+}
+
+.padding-left-1rem {
+    padding-left: 1rem;
+}
+
+.padding-left-2rem {
+    padding-left: 2rem;
+}
+
+.padding-right-0 {
+    padding-right: 0;
+}
+
+.padding-right-halfrem {
+    padding-right: 0.5rem;
+}
+
+.padding-right-1rem {
+    padding-right: 1rem;
+}
+
+.padding-right-2rem {
+    padding-right: 2rem;
+}
+
+.padding-top-0 {
+    padding-top: 0;
+}
+
+.padding-top-halfrem {
+    padding-top: 0.5rem;
+}
+
+.padding-top-1rem {
+    padding-top: 1rem;
+}
+
+.padding-top-2rem {
+    padding-top: 2rem;
+}
+/*************** EOF MARGINS PADDING **************/
+
+
+/**************************************************
+                BOF TEXT MODIFICATIONS
+**************************************************/
+.font-bold {
+    font-weight: 600;
+}
+
+.font-boldest {
+    font-weight: 800;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-spaced {
+    letter-spacing: 2px;
+}
+
+.text-black {
+    color: #222222;
+}
+
+.text-blue {
+    color: #5B9FD0;
+}
+
+.text-grey {
+    color: #F4F4F4;
+}
+
+.text-green {
+    color: #14824F;
+}
+
+.text-navy {
+    color: #0C354E;
+}
+
+.text-orange {
+    color: #FFBA4E;
+}
+
+.text-pink {
+    color: #FFBFE6;
+}
+
+.text-purple {
+    color: #643573;
+}
+
+.text-red {
+    color: #DC4343;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-yellow {
+    color: #FFEB5F;
+}
+/*************** EOF TEXT MODIFICATIONS **************/

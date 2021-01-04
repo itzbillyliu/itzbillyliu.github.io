@@ -1,0 +1,57 @@
+.bmf-container .body-section.hero {
+    background: no-repeat center/cover url('../images/hero-mobile.jpg');
+    height: 100vh;
+}
+
+.bmf-container .body-section.hero .overlay {
+    color: white;
+    height: 65vh;
+    margin: 0 auto;
+    padding-top: 30vh;
+    position: relative;
+    text-align: center;
+    width: 90%;
+}
+
+.bmf-container .body-section.hero .overlay h2 {
+    margin: 1rem auto;
+    text-transform: uppercase;
+}
+
+.bmf-container .body-section.hero .overlay img {
+    height: auto;
+    width: 250px;
+}
+
+@media(min-width: 767px){
+    .bmf-container .body-section.hero .overlay {
+        text-align: left;
+    }
+    .bmf-container .body-section.hero {
+        background: no-repeat center/cover url('../images/hero-tablet.jpg');
+    }
+    .bmf-container .body-section.hero .overlay h2 {
+        margin: 2rem auto;
+    }
+}
+
+@media(min-width: 1023px){
+    .bmf-container .body-section.hero .overlay {
+        padding-top: 35vh;
+    }
+}
+
+@media(min-width: 1279px){
+    .bmf-container .body-section.hero {
+        background: no-repeat center/cover url('../images/hero-desktop.jpg') fixed;
+    }
+}
+
+@media(min-width: 1599px){
+    .bmf-container .body-section.hero .overlay {
+        padding-top: 30vh;
+    }
+}
+
+@media(min-width: 1919px){
+}

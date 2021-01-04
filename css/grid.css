@@ -1,0 +1,114 @@
+.container {
+    box-sizing: border-box;
+    color: #222222;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .section {
+    box-sizing: border-box;
+    display: block;
+    padding: 1rem;
+    width: 100%;
+}
+
+.container .section.full {
+    width: 100% !important;
+}
+
+.container.main {
+    margin-top: 80px;
+}
+
+.container.main .section.top {
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+.container.black {
+    background: #222222;
+    color: #FFFFFF;
+}
+
+.container.blue {
+    background: #5B9FD0;
+    color: #FFFFFF;
+}
+
+.container.grey {
+    background: #F4F4F4;
+    color: #222222;
+}
+
+.container.green {
+    background: #14824F;
+    color: #FFFFFF;
+}
+
+.container.navy {
+    background: #0C354E;
+    color: #FFFFFF;
+}
+
+.container.orange {
+    background: #FFBA4E;
+    color: #222222;
+}
+
+.container.pink {
+    background: #FFBFE6;
+    color: #222222;
+}
+
+.container.purple {
+    background: #643573;
+    color: #FFFFFF;
+}
+
+.container.red {
+    background: #DC4343;
+    color: #FFFFFF;
+}
+
+.container.white {
+    background: #FCFCFC;
+    color: #222222;
+}
+
+.container.yellow {
+    background: #FFEB5F;
+    color: #222222;
+}
+
+.container.black h1,
+.container.black h3,
+.container.blue h1,
+.container.blue h3,
+.container.green h1,
+.container.green h3,
+.container.navy h1,
+.container.navy h3,
+.container.purple h1,
+.container.purple h3,
+.container.red h1,
+.container.red h3,
+.container.yellow h1,
+.container.yellow h3 {
+    color: #FFFFFF;
+}
+
+@media(min-width: 767px){
+    .container.main .section.top {
+        padding: 2rem;
+    }
+}
+
+@media(min-width: 1279px){
+    .container .section {
+        margin: 0 auto;
+        width: 1024px;
+    }
+    .container.main .section.top {
+        padding: 3.5rem 1rem;
+    }
+}

@@ -1,0 +1,156 @@
+.section.portfolio-item.websites.apexmoldremoval .image {
+    background: url('../images/portfolio/websites/websites-apexmoldremoval-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.branding.atlanticking .image {
+    background: url('../images/portfolio/branding/branding-atlanticking-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.mockups.burgermeetsfries .image {
+    background: url('../images/portfolio/mockups/mockups-burgermeetsfries-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.branding.conchking .image {
+    background: url('../images/portfolio/branding/branding-conchking-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.websites.crownsalesusa .image {
+    background: url('../images/portfolio/websites/websites-crownsalesusa-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.branding.enerknolrto .image {
+    background: url('../images/portfolio/branding/branding-enerknolrto-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.branding.everydayvitamin .image {
+    background: url('../images/portfolio/branding/branding-everydayvitamin-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.websites.expressmold .image {
+    background: url('../images/portfolio/websites/websites-expressmold-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.branding.megawireless .image {
+    background: url('../images/portfolio/branding/branding-megawireless-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.websites.meimeibakery .image {
+    background: url('../images/portfolio/websites/websites-meimeibakery-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.branding.nyew .image {
+    background: url('../images/portfolio/branding/branding-nyew-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.branding.smalleye .image {
+    background: url('../images/portfolio/branding/branding-smalleye-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.branding.suntaste .image {
+    background: url('../images/portfolio/branding/branding-suntaste-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.section.portfolio-item.websites.uniquebysk .image {
+    background: url('../images/portfolio/websites/websites-uniquebysk-mobile.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 1439px){
+    .section.portfolio-item.websites.apexmoldremoval .image {
+        background: url('../images/portfolio/websites/websites-apexmoldremoval-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.branding.atlanticking .image {
+        background: url('../images/portfolio/branding/branding-atlanticking-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.mockups.burgermeetsfries .image {
+        background: url('../images/portfolio/mockups/mockups-burgermeetsfries-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.branding.conchking .image {
+        background: url('../images/portfolio/branding/branding-conchking-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.websites.crownsalesusa .image {
+        background: url('../images/portfolio/websites/websites-crownsalesusa-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.branding.enerknolrto .image {
+        background: url('../images/portfolio/branding/branding-enerknolrto-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.branding.everydayvitamin .image {
+        background: url('../images/portfolio/branding/branding-everydayvitamin-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.websites.expressmold .image {
+        background: url('../images/portfolio/websites/websites-expressmold-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.branding.megawireless .image {
+        background: url('../images/portfolio/branding/branding-megawireless-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.websites.meimeibakery .image {
+        background: url('../images/portfolio/websites/websites-meimeibakery-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.branding.nyew .image {
+        background: url('../images/portfolio/branding/branding-nyew-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.branding.smalleye .image {
+        background: url('../images/portfolio/branding/branding-smalleye-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.branding.suntaste .image {
+        background: url('../images/portfolio/branding/branding-suntaste-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .section.portfolio-item.websites.uniquebysk .image {
+        background: url('../images/portfolio/websites/websites-uniquebysk-desktop.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,44 @@
+.bmf-container .body-section.quotes {
+    background: no-repeat center/cover url('../images/quotes-mobile.jpg');
+    color: #3a2836;
+    padding: 3rem 2rem;
+}
+
+.bmf-container .body-section.quotes .quote {
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.bmf-container .body-section.quotes .quote .author {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media(min-width: 767px){
+    .bmf-container .body-section.quotes .quote {
+        width: 480px;
+    }
+}
+
+@media(min-width: 767px){
+    .bmf-container .body-section.quotes {
+        background: no-repeat center/cover url('../images/quotes-tablet.jpg');
+        padding: 5rem 0 4rem 0;
+    }
+}
+
+@media(min-width: 1279px){
+    .bmf-container .body-section.quotes {
+        background: no-repeat center/cover url('../images/quotes-desktop.jpg') fixed;
+    }
+    .bmf-container .body-section.quotes .quote {
+        width: 600px;
+    }
+    .bmf-container .body-section.quotes .quote .speech {
+        font-size: 2rem;
+    }
+    .bmf-container .body-section.quotes .quote .author {
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,29 @@
+#index .container.main .section.top img {
+    max-width: 100%;
+}
+
+@media(min-width: 767px){
+    #index .container.main .section.top .img {
+        display: inline-block;
+        max-width: 200px;
+    }
+    #index .container.main .section.top .text {
+        display: inline-block;
+        max-width: calc(100% - 2rem - 205px);
+        padding-left: 2rem;
+        position: relative;
+        top: -3.5rem;
+    }
+}
+
+@media(min-width: 1023px){
+    #index .container.main .section.top .text {
+        width: 600px;
+    }
+}
+
+@media(min-width: 1279px){
+    #index .container.main .section.top .text {
+        top: -2.5rem;
+    }
+}

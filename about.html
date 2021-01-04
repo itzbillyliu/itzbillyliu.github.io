@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BILLYLIU DESIGNS</title>
+    <link rel="stylesheet" href="css/css.min.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <div class="navigation">
+            <div class="menu midwMargins">
+                <div class="menuLogo">
+                    <a href="index.html"><i class="logo"></i></a><i class="burger" onclick="toggleMobileMenu()"></i>
+                </div>
+                <div class="links">
+                    <a href="index.html">Portfolio</a>
+                    <a href="resume.html">Resume</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+        <img src="images/me.png" class="mepic" align="left">
+        <h1>Hi there. I'm Billy.</h1>
+        <h2>I'm a Designer/Developer.</h2>
+        <p>I specialize in Frontend Web Design with over 10 years of experience, however, I am often also tasked with backend troubleshooting and system management. I have experience designing logos and packaging for various products, as well.</p>
+        <p>I'm a lifetime New Yorker who graduated from the New York City College of Technology with a Bachelor degree in Computer System Technology.</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery-latest.min.js"></script>
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="jquery.fancybox.min.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="jquery.fancybox.pack.js"></script>
+    <script type="text/javascript">
+        function toggleMobileMenu(){
+            $(".links").toggle();
+        }
+    </script>
+</body>
+</html>

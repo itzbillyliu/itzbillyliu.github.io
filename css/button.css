@@ -1,0 +1,158 @@
+.button {
+    background: #F4F4F4;
+    border: 1px solid #F4F4F4;
+    color: #444444;
+    font-weight: 400;
+    padding: 0.75rem 1.5rem;
+    user-select: none;
+}
+
+.button.hollow {
+    background: none;
+    border: 1px solid #444444;
+}
+
+.button.large {
+    padding: 1.5rem 3rem;
+}
+
+.button.round {
+    border-radius: 25px;
+}
+
+.buttons .button {
+    margin: 0.5rem;
+}
+
+.buttons .button:first-of-type {
+    margin-left: 0;
+}
+
+.button:hover {
+    background: #444444 !important;
+    border-color: #444444 !important;
+    color: #FFFFFF !important;
+    transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+}
+
+.button.hollow.blue {
+    background: #84BAE2;
+    border-color: #84BAE2;
+    color: #FFFFFF;
+}
+
+.button.hollow.black {
+    background: #222222;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.button.hollow.grey {
+    background: #F4F4F4;
+    border-color: #F4F4F4;
+}
+
+.button.hollow.green {
+    background: #279A65;
+    border-color: #279A65;
+    color: #FFFFFF;
+}
+
+.button.hollow.navy {
+    background: #195473;
+    border-color: #195473;
+    color: #FFFFFF;
+}
+
+.button.hollow.orange {
+    background: #FFCA75;
+    border-color: #FFCA75;
+    color: #222222;
+}
+
+.button.hollow.pink {
+    background: #FFD6EF;
+    border-color: #FFD6EF;
+    color: #222222;
+}
+
+.button.hollow.purple {
+    background: #8F5A9E;
+    border-color: #8F5A9E;
+    color: #FFFFFF;
+}
+
+.button.hollow.red {
+    background: #FF5D5D;
+    border-color: #FF5D5D;
+    color: #FFFFFF;
+}
+
+.button.hollow.white {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.button.hollow.yellow {
+    background: #FFF089;
+    border-color: #FFF089;
+    color: #222222;
+}
+
+.button.hollow.blue:hover {
+    background: #3F7298 !important;
+    border-color: #3F7298 !important;
+}
+
+.button.hollow.black:hover {
+    background: #F4F4F4 !important;
+    border-color: #F4F4F4 !important;
+    color: #222222 !important;
+}
+
+.button.hollow.grey:hover {
+    background: #777777 !important;
+    border-color: #777777 !important;
+}
+
+.button.hollow.green:hover {
+    background: #105837 !important;
+    border-color: #105837 !important;
+}
+
+.button.hollow.navy:hover {
+    background: #0A2635 !important;
+    border-color: #0A2635 !important;
+}
+
+.button.hollow.orange:hover {
+    background: #ECA32D !important;
+    border-color: #ECA32D !important;
+    color: #FFFFFF !important;
+}
+
+.button.hollow.pink:hover {
+    background: #FB9FD7 !important;
+    border-color: #FB9FD7 !important;
+    color: #FFFFFF !important;
+}
+
+.button.hollow.purple:hover {
+    background: #462B4E !important;
+    border-color: #462B4E !important;
+}
+
+.button.hollow.red:hover {
+    background: #B72A2A !important;
+    border-color: #B72A2A !important;
+}
+
+.button.hollow.yellow:hover {
+    background: #FFE31B !important;
+    border-color: #FFE31B !important;
+}

@@ -1,0 +1,59 @@
+.bmf-container .body-section.onboarding {
+    background: #f4eef3;
+    color: #3a2836;
+    padding: 3rem 2rem 2rem 2rem;
+}
+
+.bmf-container .body-section.onboarding .column {
+    margin-bottom: 5rem;
+}
+
+.bmf-container .body-section.onboarding .column:last-of-type {
+    margin-bottom: 0;
+}
+
+.bmf-container .body-section.onboarding .step {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+@media(min-width: 767px){
+    .bmf-container .body-section.onboarding .overlay {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .bmf-container .body-section.onboarding .column {
+        display: inline-block;
+        margin-bottom: 0;
+        padding: 1rem;
+        text-align: left;
+        width: 200px;
+    }
+    .bmf-container .body-section.onboarding .column:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width: 1023px){
+    .bmf-container .body-section.onboarding .column {
+        width: 300px;
+    }
+}
+
+@media(min-width: 1279px){
+    .bmf-container .body-section.onboarding .column {
+        width: 310px;
+    }
+    .bmf-container .body-section.onboarding .column p {
+        font-size: 1.6rem;
+    }
+}
+
+@media(min-width: 1919px){
+    .bmf-container .body-section.onboarding .column .step {
+        font-size: 1.6rem;
+    }
+    .bmf-container .body-section.onboarding .column p {
+        font-size: 2rem;
+    }
+}

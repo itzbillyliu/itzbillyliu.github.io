@@ -1,0 +1,52 @@
+.section.portfolio-header,
+.section.portfolio-content {
+    padding: 1rem 2rem;
+}
+
+.section.portfolio-header h1,
+.section.portfolio-header h3 {
+    display: inline-block;
+    line-height: 3.5rem;
+    vertical-align: middle;
+}
+
+.section.portfolio-header h1 {
+    float: left;
+    width: 70%;
+}
+
+.section.portfolio-header h3 {
+    float: right;
+    text-align: right;
+    width: 30%;
+}
+
+.section.portfolio-content .type {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media(min-width: 767px){
+    .section.portfolio-header h1,
+    .section.portfolio-header h3 {
+        width: auto;
+    }
+    .section.portfolio-content .content {
+        letter-spacing: 1px;
+        line-height: 2.5rem;
+    }
+    .section.portfolio-images .left,
+    .section.portfolio-images .right {
+        display: inline-block;
+        width: 49.5%;
+        vertical-align: top;
+    }
+}
+
+@media(min-width: 1439px){
+    .section.portfolio-header,
+    .section.portfolio-content {
+        padding: 1rem;
+    }
+}
