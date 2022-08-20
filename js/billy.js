@@ -1,13 +1,5 @@
 var bliu = {
     clickHandlers: function(){
-        $('.js-contact').click(function(){
-            if($('.submenu').is(':visible'))
-                bliu.collapseMenu();
-
-            $('html, body').animate({
-                scrollTop: $(document).height(),
-            }, 1000);
-        });
         $('.js-expand-menu').click(function(){
             bliu.expandMenu();
         });
