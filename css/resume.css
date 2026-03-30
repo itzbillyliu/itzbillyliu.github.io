@@ -1,3 +1,7 @@
+#resume {
+    margin-bottom: 5rem;
+}
+
 #resume .container .section.skills .skills .skill {
     background: #F4F4F4;
     border-radius: 2px;
@@ -7,8 +11,33 @@
     user-select: none;
 }
 
+#resume .container .section.employment .job
+#resume .container .section.education .degree {
+    border-top: 1rem solid #F4F4F4;
+    border-left: 1rem solid #F4F4F4;
+    padding: 1rem;
+}
+
+@media(min-width: 767px){
+    #resume .container .section.employment .job
+    #resume .container .section.education .degree {
+        padding: 2rem;
+    }
+}
+
+#resume .container .section.employment .job + .job {
+    margin-top: 3rem;
+}
+
 #resume .container .section.employment .job ul {
     margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+@media(min-width: 1279px){
+    #resume .container .section.employment .job ul {
+        padding-left: 4rem;
+    }
 }
 
 #resume .container .section.employment .job:last-of-type ul {
@@ -17,8 +46,21 @@
 
 #resume .container .section.employment .job li {
     font-size: 1.4rem;
-    letter-spacing: 1px;
-    line-height: 3rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media(min-width: 767px){
+    #resume .container .section.employment .job li {
+        line-height: 2.5rem;
+    }
+}
+
+@media(min-width: 1279px){
+    #resume .container .section.employment .job li {
+        letter-spacing: 1px;
+        line-height: 3rem;
+    }
 }
 
 @media(min-width: 767px){
