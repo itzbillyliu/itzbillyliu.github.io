@@ -11,7 +11,7 @@
     user-select: none;
 }
 
-#resume .container .section.employment .job
+#resume .container .section.employment .job,
 #resume .container .section.education .degree {
     border-top: 1rem solid #F4F4F4;
     border-left: 1rem solid #F4F4F4;
@@ -19,7 +19,7 @@
 }
 
 @media(min-width: 767px){
-    #resume .container .section.employment .job
+    #resume .container .section.employment .job,
     #resume .container .section.education .degree {
         padding: 2rem;
     }
