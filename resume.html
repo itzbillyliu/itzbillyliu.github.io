@@ -37,35 +37,49 @@
         <div class="section skills">
             <h2 class="text-blue margin-bottom-1rem">Professional Skills</h2>
             <div class="skills">
-                <div class="skill display-inline-block">Git</div>
-                <div class="skill display-inline-block">HTML</div>
-                <div class="skill display-inline-block">CSS</div>
-                <div class="skill display-inline-block">LESS</div>
-                <div class="skill display-inline-block">SCSS</div>
                 <div class="skill display-inline-block">Java</div>
+                <div class="skill display-inline-block">Spring Boot</div>
                 <div class="skill display-inline-block">JavaScript</div>
-                <div class="skill display-inline-block">JQuery</div>
-                <div class="skill display-inline-block">ChartJS</div>
-                <div class="skill display-inline-block">React</div>
+                <div class="skill display-inline-block">Node.js</div>
                 <div class="skill display-inline-block">TypeScript</div>
                 <div class="skill display-inline-block">MySQL</div>
+                <div class="skill display-inline-block">PostgreSQL</div>
+                <div class="skill display-inline-block">Git</div>
+                <div class="skill display-inline-block">JQuery</div>
+                <div class="skill display-inline-block">ReactJS</div>
                 <div class="skill display-inline-block">PHP</div>
+                <div class="skill display-inline-block">WordPress</div>
                 <div class="skill display-inline-block">Python</div>
+                <div class="skill display-inline-block">HTML</div>
+                <div class="skill display-inline-block">CSS</div>
+                <div class="skill display-inline-block">SCSS</div>
+                <div class="skill display-inline-block">LESS</div>
             </div>
         </div>
         <div class="section employment">
             <h2 class="text-blue margin-bottom-1rem">Employment History</h2>
             <div class="job">
                 <h3 class="margin-0">Senior Software Engineer</h2>
-                    <h4 class="margin-top-0">bp pulse fleet, Nov 2021 - Present
+                    <h4 class="margin-top-0">bp pulse, Jul 2024 - Present
                 </h3>
                 <ul>
-                    <li>Owned, developed, and implemented scalable microservice solution to monitor customer chargers and send near real-time alerts for various triggering conditions to field technicians while recording past alerts to prevent duplicate alerts and for customer troubleshooting utilizing JavaScript, Node.js, Express, MySQL, and internal REST API.</li>
-                    <li>Implemented new API endpoints to facilitate frontend in fetching customer geolocation data, utility rate schedules and tariffs, and vehicle geolocation data for reporting utilizing JavaScript, Node.js, Express, MySQL, and internal REST API.</li>
-                    <li>Developed and implemented microservice solution to fetch and store historical vehicle telemetry data for accurate error reporting and tracking utilizing JavaScript, Node.js, and both external (Health Alert Management System) and internal REST APIs.</li>
-                    <li>Developed and implemented backend solution to generate, record, and manage charging sessions internally to offset inconsistent sessions and quirks at the charger level utilizing JavaScript, Node.js, MySQL, and internal REST API.</li>
-                    <li>Developed and implemented backend solution to generate reports to facilitate with SLA compliance and track key performance indicators such as charger uptime, charging session times, and vehicle readiness utilizing Java, Spring Boot, MySQL, and internal REST API.</li>
-                    <li>Owned, developed, and implemented new internal customer route management system API to provide metrics on vehicle usage and enhance platform capability in scheduling automated charging based on customer TOU schedule in order to save costs, utilizing Java, Spring Boot, MySQL, and both internal and external REST APIs.</li>
+                    <li>Architected an OCPI-compliant command engine supporting session commands from partner EMSPs, performing real-time validation and delivering reliable remote control of EVSEs for secure and reliable charge sessions (TypeScript, PostgreSQL).</li>
+                    <li>Architected an OCPI-compliant pricing engine supporting complex tariff structures (TOU, minimums, varying fees, rates, VAT) implementing a constant-time price lookup enabling scalable high-performance billing (TypeScript, PostgreSQL).</li>
+                    <li>Architected a payment processing integration with Payter to support Tesla EVSEs across distributed charging sites, enabling secure transactions and providing near real-time charge session details to users via onsite displays while eliminating dependency on the native Tesla app (Java, Spring Boot, PostgreSQL).</li>
+                    <li>Developed and implemented a translation component mapping internal session IDs with external EMSP session IDs extracted through OCPP streams, enabling accurate session tracking for billing CDR recipients (Java, Spring Boot, MySQL).</li>
+                </ul>
+                <h3 class="margin-0">Senior Software Engineer</h2>
+                    <h4 class="margin-top-0">bp pulse, Nov 2021 - Jul 2024
+                </h3>
+                <ul>
+                    <li>Architected a telemetry-driven monitoring and alerting platform for distributed EV charging infrastructure, enabling near real-time fault detection and automated customer notifications, reducing mean time to resolution and establishing measurable reliability and uptime standards incorporated into customer SLAs (Node.js, MySQL).</li>
+                    <li>Implemented integration with Geotab API for monitoring and alerting platform, providing SoC values from Tesla rental vehicles to support load management in partnership with Hertz, enabling near real-time fault detection and automated alerts when vehicles complete charging (Node.js, MySQL).</li>
+                    <li>Built a command dispatcher service to support the load management service, separating responsibilities and enabling scalable processing of high-volume charger commands and facilitating targeted testing (Java, Spring Boot, MySQL).</li>
+                    <li>Implemented a UK-mandated randomized delay feature in the load management service, ensuring regulatory compliance and safe deployment under smart charging regulations that exist to prevent grid instability (Java, Spring Boot, MySQL).</li>
+                    <li>Developed the overcurrent protection feature in the load management service, enabling real-time detection of excessive load and automatic shutdown of chargers to prevent hardware damage (Java, Spring Boot, MySQL).</li>
+                    <li>Designed, developed, and implemented route management integration with TripShot, delivering route analytics enabling the data science team to optimize the load management service for efficiency (Java, Spring Boot, MySQL).</li>
+                    <li>Collaborated with field operations to validate onsite EVSEs during site onboarding, sending remote OCPP 1.6 commands and analyzing real-time charger behavior to identify issues, assess limitations, and improve operational reliability.</li>
+                    <li>Investigated critical infrastructure metrics and assessed monitoring services to design a comprehensive infrastructure and operations monitoring plan, providing a foundation for proactive system health management and reliable uptime.</li>
                 </ul>
             </div>
             <div class="job">
@@ -73,49 +87,26 @@
                     <h4 class="margin-top-0">Collibra, Mar 2020 - Nov 2021
                 </h3>
                 <ul>
-                    <li>Developed and implemented full stack solution to allow user registration for demo in a control environment while validating entries, blacklisting competitors, providing custom paths through the registration process based on URL parameters provided by SDRs to customers, utilizing PHP, jQuery, Salesforce SOAP API, and internal REST API.</li>
-                    <li>Developed and implemented internal tool to allow for concurrent registration and access allocation of up to 100 users to facilitate onboarding of new accounts while utilizing Salesforce as a source of truth to synchronize new users with any existing customer records and allocating product access based on existing Salesforce accounts and contracts, utilizing the Salesforce SOAP API, Force Toolkit, SOQL, MySQL, and PHP.</li>
-                    <li>Developed and implemented auxiliary backend script to synchronize email addresses when users request and complete an email change from their account dashboard, utilizing the Salesforce SOAP API, Force Toolkit, SOQL, MySQL, and PHP to provide a seamless experience and minimize user frustration when navigating across interconnected web properties.</li>
-                    <li>Developed and implemented a complete redesign of Resource Library and Blog modules to facilitate category filtering and pagination via ajax with browser history, utilizing JavaScript, CSS, SCSS, and PHP to provide an improved user experience.</li>
-                    <li>Developed and implemented full stack solution to generate a Marketo Lead Capture Form which is then auto populated using the most current high-level user data available in the local WordPress database and marketing consent from Marketo REST API via OAuth2.0 utilizing JavaScript, CSS, SCSS, MySQL, and PHP with the form's fields validated based on the type of form requested, and anonymous user data tracked with Google Tag Manager/Google Ads/LinkedIn.</li>
-                    <li>Implemented internal tool to set distinct Google Structured Data Schemas for individual pages, allowing for the deployment of FAQ pages establishing Collibra as a reliable source of knowledge and improving SEO.</li>
-                    <li>Developed and implemented internal tools utilizing MySQL and PHP to auto remove approximately 40K non-admin users on development servers for GDPR and CCPA compliance, bulk conversion of 100+ site-wide lead capture forms from Gravity Forms and Eloqua Forms to Marketo Forms, bulk conversion of datetime format entries in Advanced Custom Fields for added specificity (resolving a widespread bug affecting 200+ blog posts).</li>
+                    <li>Architected an end-to-end demo registration system with SDR-configurable user journey routing, real-time form validation, competitor filtering, and automated Salesforce integration, streamlining lead qualification and onboarding (PHP, jQuery, Salesforce SOAP API, internal REST API).</li>
+                    <li>Architected a full-stack lead capture system integrating Marketo into WordPress, dynamically generating lead capture forms with real-time validation, pre-populated with GDPR-compliant user data from CRM, improving conversion consistency and maintaining data integrity (Marketo REST API, OAuth2.0, JavaScript, CSS, SCSS, MySQL, PHP).</li>
+                    <li>Engineered an internal tool enabling concurrent user registration and automated access provisioning to facilitate onboarding of new accounts while synchronizing new users with any existing Salesforce records (Salesforce SOAP API, Force Toolkit, SOQL, MySQL, PHP).</li>
+                    <li>Designed and delivered an end-to-end integration with Salesforce to automate synchronization of user email changes across CRM and internal database, improving data integrity, reducing cross-platform inconsistencies, and delivering a seamless cross-platform user experience (Salesforce SOAP API, Force Toolkit, SOQL, MySQL, PHP).</li>
+                    <li>Engineered an AJAX-driven filtering system for WordPress content modules, incorporating stateful pagination and browser history management, enhancing content discoverability for an improved user experience (JavaScript, CSS, SCSS, PHP).</li>
+                    <li>Implemented Status Dashboard to display health status of product ecosystem and keep users informed of ongoing maintenance and issues, improving brand trustworthiness (AWS SDK, JavaScript, JSON, PHP).</li>
+                    <li>Implemented internal tool to set Google Structured Data Schemas for distinct FAQ pages, helping to establish the company as a reliable source of knowledge on specific keyword topics, improving SEO and brand trustworthiness.</li>
                     <li>Achieved an overall 82.33% improvement in site performance through implementations on the frontend aimed at removing bulk, resulting in Google Lighthouse scores of 83/95/85/89 on Mobile and scores of 97/94/92/91 on Desktop, with a total load time of 2.1 seconds on GTMetrix.</li>
                 </ul>
             </div>
             <div class="job">
-                <h3 class="margin-0">Front End Software Developer</h2>
+                <h3 class="margin-0">Frontend Engineer</h2>
                 <h4 class="margin-top-0">EnerKnol, Feb 2016 - Mar 2020</h3>
                 <ul>
-                    <li>Developed multiple proof of concept modules which resulted in new enterprise customer subscriptions such as a team-centric Calendar, a Live Feed of newly scraped policy items, a Dashboard which serves as a starting point for users to identify Bills and Dockets which are related to their interested topics and industries, using Invision and Adobe Creative Suite.</li>
-                    <li>Developed an updated Search Form UI that resolved a complexity issue where user's intended operations resulted in browser lock-up due to multiple nested loops, as well as resolving a usability issue where users needed to be able to access a third level child item when performing searches where there were previously two levels.</li>
-                    <li>Developed multiple proof of concept modules which resulted in new enterprise customer subscriptions such as a team-centric Calendar, a Live Feed of newly scraped policy items, a Dashboard which serves as a starting point for users to identify Bills and Dockets which are related to their interested topics and industries.</li>
-                    <li>Developed various WordPress plugins using PHP to modularize and allow admins to customize user platform access, sync and display gated content using various custom templates across web properties, and validate lead capture form data and sync user data.</li>
-                    <li>Retrofit membership-based WordPress plugin to handle customized recurring payments through Stripe API and allow for modular and customizable access to proprietary platform.</li>
-                    <li>Prototyped improved UI/UX using Invision to identify and resolve key weaknesses in an energy regulatory platform that serves major utilities through a web interface.</li>
-                    <li>Designed various digital and print media for company advertisements and for annual industry-wide event held by subsidiary company for greater outreach utilizing Adobe Creative Suite.</li>
-                    <li>Implemented Mobile Responsiveness across web properties with a Mobile-First Design approach.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3 class="margin-0">Freelance Web Developer</h2>
-                <h4 class="margin-top-0">Say Designs, Jan 2010 - Nov 2016</h3>
-                <ul>
-                    <li>Launched successful B2B e-commerce solutions in PHP that averaged $100K in sales using the PrestaShop and Magento frameworks</li>
-                    <li>Implemented Mobile Responsiveness in web projects with a Mobile-First Design Approach, utilizing HTML, CSS, PHP, Javascript, and JQuery</li>
-                    <li>Designed production-ready packaging solution in Illustrator distributed locally</li>
-                    <li>Successfully interacted with clients to foster relationships with repeat business</li>
-                    <li>Developed and designed various custom solutions and products</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3 class="margin-0">Web Developer + Ecommerce Manager</h2>
-                <h4 class="margin-top-0">Crown Sales USA, Aug 2013 - Feb 2016</h3>
-                <ul>
-                    <li>Launched a successful B2B e-commerce solution in PHP that averages $400K in sales using the PrestaShop framework</li>
-                    <li>Successfully interacted with clients to foster relationships with repeat business</li>
-                    <li>Implemented strategies to generate higher click to bounce ratios on marketing efforts</li>
-                    <li>Led organizational efforts to meet time constraints on over 90% of order deliveries</li>
+                    <li>Developed and implemented UI improvements and features to solve user experience issues based on user stories such as Pagination, Search Form Design and Interactions, Custom Maintenance Banners and Error Pages, and establishing a standardized style guide (JavaScript, jQuery, CSS, LESS, MongoDB, MySQL, Jinja, Python).</li>
+                    <li>Developed and implemented Search Form UI that resolved a complexity issue resulting in browser lock-up due to multiple nested loops when accessing and selecting third level child items (JavaScript, jQuery, CSS, LESS, Jinja, Python).</li>
+                    <li>Engineered WordPress integration to validate and automate lead data synchronization with Zoho CRM on lead capture forms and administrative updates to user profiles within dashboard (Zoho CRM, JavaScript, PHP, Google reCAPTCHA).</li>
+                    <li>Architected and designed multiple POC modules, resulting in new enterprise customer subscriptions such as a team-centric Calendar, a Live Feed of newly scraped policy items, a Heat Map module of the latest trending bills and dockets within search results, and a User Dashboard for latest relevant updates (InVision, Adobe Photoshop, CSS, LESS, JavaScript).</li>
+                    <li>Developed and implemented WordPress plugin to modularize and allow admins to customize contract packages and control access allocation to the product platform (PHP, Python).</li>
+                    <li>Engineered WordPress plugin to automate synchronization of new posts across WordPress and SaaS platform for a seamless user experience (CSS, LESS, PHP, Python, MongoDB, Elasticsearch).</li>
                 </ul>
             </div>
         </div>
